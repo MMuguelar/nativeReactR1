@@ -1,5 +1,6 @@
 {
   "expo": {
+    
     "name": "my-app",
     "slug": "my-app",
     "version": "1.0.0",
@@ -7,9 +8,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "./assets/splash.png"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +18,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FFFFFFF"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
+    
   }
 }
